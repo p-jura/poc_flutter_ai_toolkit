@@ -1,4 +1,4 @@
-package com.example.flutter_ai_toolkit_poc
+package com.poc.flutter_ai_toolkit
 
 import io.flutter.embedding.android.FlutterActivity
 

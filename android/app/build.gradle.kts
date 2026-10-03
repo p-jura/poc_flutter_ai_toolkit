@@ -1,12 +1,11 @@
 plugins {
     id("com.android.application")
     id("dev.flutter.flutter-gradle-plugin")
-    id("com.android.application")
     id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.flutter_ai_toolkit_poc"
+    namespace = "com.poc.flutter_ai_toolkit"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -16,7 +15,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.flutter_ai_toolkit_poc"
+        applicationId = "com.poc.flutter_ai_toolkit"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

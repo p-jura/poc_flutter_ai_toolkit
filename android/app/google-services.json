@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216369276038",
+    "project_id": "poc-flutter-ai-toolkit",
+    "storage_bucket": "poc-flutter-ai-toolkit.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216369276038:android:79c498417d47a1dab19d07",
+        "android_client_info": {
+          "package_name": "com.poc.flutter_ai_toolkit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8TxXCmMDw7ulF1gcr6j3A7Z29eFNgCnw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
