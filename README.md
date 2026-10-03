@@ -1,17 +1,42 @@
-# flutter_ai_toolkit_poc
+# Flutter AI Toolkit POC
 
-A new Flutter project.
+> **Status: projekt POC w trakcie developmentu.** Aplikacja służy do weryfikacji
+> koncepcji i integracji; nie jest jeszcze ukończonym ani produkcyjnym produktem.
 
-## Getting Started
+## Co robi aplikacja?
 
-This project is a starting point for a Flutter application.
+To prototyp aplikacji mobilnej z interfejsem czatu AI. Użytkownik może prowadzić
+rozmowę z modelem Gemini, a widok czatu zapewnia pakiet Flutter AI Toolkit.
+Połączenie z modelem jest realizowane przez Firebase AI.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologie
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter i Dart
+- [Flutter AI Toolkit](https://pub.dev/packages/flutter_ai_toolkit) — interfejs czatu
+- [Firebase AI](https://firebase.google.com/docs/ai-logic) — dostęp do modelu Gemini
+- Firebase App Check — w konfiguracji Androida używany jest dostawca debugowania
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Uruchomienie
+
+Wymagane są Flutter SDK oraz konfiguracja projektu Firebase dla obsługiwanej
+platformy. Aplikacja korzysta z konfiguracji zapisanej w `lib/firebase_options.dart`.
+
+1. Pobierz zależności:
+
+	```sh
+	flutter pub get
+	```
+
+2. Skonfiguruj Firebase dla projektu i upewnij się, że Firebase AI jest dostępne.
+3. Uruchom aplikację na emulatorze lub urządzeniu:
+
+	```sh
+	flutter run
+	```
+
+## Zakres POC
+
+Obecny zakres obejmuje podstawowy czat z modelem Gemini. Funkcjonalności,
+konfiguracja i obsługiwane scenariusze mogą się zmieniać w miarę rozwoju
+prototypu. Projekt nie powinien być traktowany jako gotowy do wdrożenia
+produkcyjnego.
